@@ -1,0 +1,122 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+    background-color: #f0f2f5; 
+    font-family: Helvetica, Arial, sans-serif;
+}
+.login{
+    width: 400px;
+    height: 680px;
+    margin: auto;
+    margin-top:40px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.left{
+   text-align: center;
+}
+.left >h1{
+    color: #0866ff;
+    font-size: 50px;
+    margin: 0;
+}
+.left >h2{
+    margin: 0;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.right{
+    text-align: center;
+}
+.panal{
+    background-color: #ffffff;
+    width: 400px;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 3px 5px 2px rgba(150 ,150, 150, 0.4 );
+    text-align: center;
+
+    
+}
+input{
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #c9c6c6;
+    border-radius: 6px;
+}
+.btn1{
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 10px 0;
+    border: 1px solid #c9c6c6;
+    background-color: #1a77f2;
+    color: #ffff;
+}
+.btn1-1{
+    text-decoration: none;
+    color: #ffff;
+}
+.btn1:hover{
+    background-color: #124acd;
+    cursor: pointer;
+}
+.Forgotten{
+    text-decoration: none;
+    color: #1a77f2;
+    font-size: 11px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.line{
+    color: #e6e0e0;
+    margin: 10px 0;
+    opacity: 0.3;
+}
+
+.btn2{
+    width: 60%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #c9c6c6;
+    background-color:#43b72a;
+    
+}
+.btn2-2{
+    text-decoration: none;
+    color: #ffff;
+}
+.btn2:hover{
+    background-color: #1d8f23;
+    cursor: pointer;
+
+}
+.bottom{
+    margin-top:15px ;
+}
+.link2{
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+}
+@media (min-width: 890px) {
+    .login {
+      width: 90%;
+      max-width: 980px;
+      flex-direction: row;
+      padding-top: 70px;
+      justify-content: space-between;
+    }
+    .left {
+      text-align: left;
+      padding-top: 80px;
+      width: 480px;
+    }
+  }
